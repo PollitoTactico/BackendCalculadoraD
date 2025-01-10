@@ -42,3 +42,8 @@ app.post("/api/calcular", (req, res) => {
 app.listen(port, () => {
     console.log(`Servidor corriendo en http://localhost:${port}`);
 });
+
+const cors = require('cors');
+app.use(cors({
+    origin: 'https://tu-frontend.github.io'
+}));
