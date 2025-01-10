@@ -5,7 +5,7 @@ const port = 4000;
 
 // Middleware de CORS
 app.use(cors({
-    origin: 'https://pollitotactico.github.io/FrontCalculadoraD'
+    origin: '*'
 }));
 
 // Middleware para parsear JSON
