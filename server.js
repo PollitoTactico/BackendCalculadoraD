@@ -45,5 +45,5 @@ app.listen(port, () => {
 
 const cors = require('cors');
 app.use(cors({
-    origin: 'https://tu-frontend.github.io'
+    origin: ' https://pollitotactico.github.io/FrontCalculadoraD/'
 }));
